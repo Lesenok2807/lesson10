@@ -46,14 +46,3 @@ const cloneElem = elems6[8].cloneNode(true);
 cloneElem.textContent = 'Глава 8: За пределами ES6';
 lists6.append(cloneElem);
 elems6[9].before(cloneElem);
-
-
-
-console.log(lists6);
-console.log(elems6);
-console.log(cloneElem);
-
-
-
-
-
